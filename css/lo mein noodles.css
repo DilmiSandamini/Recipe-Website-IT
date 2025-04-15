@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+}
+
+.lo-mein-noodles-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingrediant-box {
+    width: 700px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.recipe-name {
+    width: 800px;
+    height: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 80px;
+    color: black;
+}
+
+.image-box img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.direction-box {
+    margin-left: 30px;
+} 
+
+.ingrediant {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.for-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.ingrediant-list {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+

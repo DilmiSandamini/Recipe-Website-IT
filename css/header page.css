@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color:rgb(41, 39, 39);
+}
+
+#recipe-qouta{
+    font-size: 20px;
+    color: #2e0d1d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.name-colour{
+    color: rgb(6, 56, 56);
+}
+
+.header-content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(88, 87, 87);
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.nav-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+} 

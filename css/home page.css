@@ -1,0 +1,40 @@
+.home{
+    position: relative;
+    /* background-color: darkcyan; */
+}
+.home-section-01{
+    margin-top: 87px;
+    background-color:rgb(41, 39, 39);
+    color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-section-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-section-detail{
+    width: 50%;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.home-section-02 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* .recipe-box img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+} */

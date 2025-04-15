@@ -1,0 +1,30 @@
+#about-section-title{
+    color: white ;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-container-01 p{
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    color: white;
+    text-align: justify;
+    font-size: 1.2rem;
+
+}
+
+.about-container-02 img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100%;
+}

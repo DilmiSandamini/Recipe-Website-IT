@@ -13,21 +13,19 @@
     margin-bottom: 60px;
 
 }
-/* .recipe-container{
-    display: flex;
-    flex-direction: column;
-} */
 
-.category-01-container{
+.category-01-container {
+    width: 100%;
     display: flex;
-    justify-content:space-between;
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    gap: 20px;
+    flex-wrap: nowrap; 
+    justify-content: flex-start ;              
+    overflow-x: auto;              
+    gap: 15px;
+    scroll-behavior: smooth;
 }
 
-.recipe-box{
-    width: 300px;
+.recipe-box {
+    min-width: 300px;               
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -40,10 +38,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 .view-recipe-button{
     width: 150px;
     height: 40px;
     border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+
 }
 
 .recipe-box img{
@@ -51,7 +53,93 @@
     height: 250px;
     object-fit: cover;
     border-radius: 100%;
-    /* margin-top: 10px; */
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    #recipe-section-title{
+        font-size: 2rem;
+    }
+    
+    .category-name{
+        font-size:1.4rem ;
+    }
 
+    .recipe-box {
+        min-width: 250px;               
+        height: 320px;
+        display: flex;
+        font-size: 1.1rem;
+    }
+
+    .view-recipe-button{
+        width: 140px;
+        font-size: 0.9rem;
+    }
+    
+    .recipe-box img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #recipe-section-title{
+        font-size: 1.9rem;
+    }
+    
+    .category-name{
+        font-size:1.3rem ;
+        margin: 20px;
+    }
+
+    .recipe-box {
+        min-width: 230px;               
+        height: 300px;
+        display: flex;
+        font-size: 1.1rem;
+    }
+
+    .view-recipe-button{
+        width: 140px;
+        font-size: 0.9rem;
+    }
+    
+    .recipe-box img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    #recipe-section-title{
+        font-size: 1.6rem;
+    }
+    
+    .category-name{
+        font-size:1.1rem ;
+        margin: 20px;
+    }
+
+    .recipe-box {
+        min-width: 220px;               
+        height: 290px;
+        display: flex;
+        font-size: 1.1rem;
+    }
+
+    .view-recipe-button{
+        width: 140px;
+        font-size: 0.9rem;
+    }
+    
+    .recipe-box img{
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}

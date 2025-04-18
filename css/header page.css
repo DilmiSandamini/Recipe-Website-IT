@@ -47,8 +47,8 @@ body{
 .menu-panel{
     background-color: black;
     color: white;
-    height: 100%;
-    width: 250px;
+    height: 30%;
+    width: 220px;
     position: fixed;
     padding-top: 70px;
     top: 0;
@@ -182,5 +182,111 @@ body{
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px){
-    
+    .header-content{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-panel.active {
+        right: 0;
+    }
+    #burger {
+        width: 20px;
+        height: 20px;
+        display: block;    
+    }
+
+    .navigation-sections {
+        display: none;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    #recipe-qouta{
+        font-size: 0.8rem;
+        margin-left: 5px;
+    }
+
+    #logo-name{
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px){
+    .header-content{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-panel.active {
+        right: 0;
+    }
+    #burger {
+        width: 20px;
+        height: 20px;
+        display: block;    
+    }
+
+    .navigation-sections {
+        display: none;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    #recipe-qouta{
+        font-size: 0.6rem;
+        margin-left: 5px;
+    }
+
+    #logo-name{
+        margin-left: 10px;
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 319px){
+    .header-content{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-panel.active {
+        right: 0;
+    }
+    #burger {
+        width: 15px;
+        height: 15px;
+        display: block;    
+    }
+
+    .navigation-sections {
+        display: none;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    #recipe-qouta{
+        font-size: 0.4rem;
+        margin-left: 5px;
+    }
+
+    #logo-name{
+        margin-left: 10px;
+        font-size: 0.5rem;
+    }
+
+    .menu-panel{
+        width: 180px;
+    }
 }

@@ -1,13 +1,11 @@
 .recipe-footer {
+    width: 100%;
     background-color:rgb(41, 82, 83);
     color: white;
     text-align: center;
-    padding: 20px;
-    margin-top: 30px;
 }
 
 .recipe-footer p {
-    margin: 5px 0;
     font-size: 1.2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -16,7 +14,6 @@
 .footer-links a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
     font-size: 1rem;
 }
 
@@ -33,3 +30,5 @@
     height: 30px;
     margin: 0 5px;
 }
+
+

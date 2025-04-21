@@ -29,7 +29,18 @@
     width: 30px;
     height: 30px;
     margin: 0 5px;
+
+    transition: 0.5s ease;
 }
+
+.social-icons a img:hover {
+    color: rgb(10, 32, 10);
+    box-shadow: 0 0 25px rgb(10, 32, 10),
+                0 0 20px rgb(10, 32, 10);
+    transform: scale(1.1);
+}
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1440px){
     .recipe-footer p {
@@ -98,7 +109,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 374px){
     .recipe-footer p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .social-icons a img {
@@ -108,7 +119,7 @@
     }
 
     .footer-links a {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
 }

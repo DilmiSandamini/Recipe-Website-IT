@@ -34,6 +34,15 @@ body{
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+
+    transition: 0.5s ease;
+}
+
+.image-box img:hover{
+    color:orange;
+    box-shadow : 0 0 25px orange,
+                 0 0 20px orange;
+    transform: scale(1); 
 }
 
 .ingrediant{
@@ -208,7 +217,7 @@ body{
     }
     
     .ingrediant-list{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .recipe-name{
@@ -246,7 +255,7 @@ body{
     }
     
     .ingrediant-list{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     .recipe-name{
